@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Nunito;
+  src: url(/Font/Nunito-VariableFont_wght.ttf);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logotype {
+  margin-right: 2rem;
+  font-size: 18px;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+body {
+  background-color: black;
+  background: #000000;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 92%,
+    rgba(189, 13, 13, 1) 115%
+  );
+  font-family: Nunito;
+}
+
+#topRated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+#discover {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  max-width: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#links {
+  margin-left: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+#text {
+  border-radius: 5rem;
+  border: 0;
+  height: 25px;
+  width: 250px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.disc_poster,
+.search_poster,
+.topRated_poster,
+.genre_poster,
+#genreList li,
+#topRated {
+  transition: transform 0.35s ease;
+}
+
+.disc_poster:hover,
+.search_poster:hover,
+.topRated_poster:hover,
+.genre_poster:hover,
+#genreList li:hover,
+#topRated:hover {
+  transform: scale(1.1);
+}
+
+#genre {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#genreList {
+  margin: 0;
+}
+
+#genreList li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#discover > a > img {
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+}

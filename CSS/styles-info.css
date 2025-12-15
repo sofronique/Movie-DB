@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Nunito;
+    src: url(/Font/Nunito-VariableFont_wght.ttf);
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Nunito;
+}
+
+#desc {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+#movie-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+#text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#poster {
+    height: 450px;
+    margin-right: 4rem;
+    box-shadow: -10px 8px 100px 0 rgba(255, 0, 0, 0.2), 10px 12px 100px 0 rgba(255, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+#backButton {
+    height: 30px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+
+    transition: transform 0.15s ease-in;
+}
+
+#backButton:hover{
+    transform: scale(1.2);
+}
+
+#date {
+    font-size: 16px;
+}
+
+#topInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    flex-wrap: nowrap;
+}
+
+#title, #date {
+    margin: 0;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+#botInfo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#ratingStar {
+    height: 20px;
+    box-shadow: 0px 8px 100px 0 rgba(255, 0, 0, 0.2), 10px 12px 100px 0 rgba(255, 0, 0, 0.19);
+    margin-right: 0.5rem;
+}
+
+#trailer {
+    text-align: end;
+}
